@@ -168,12 +168,12 @@
       <div class="skill-row">
         <img class="frontend-img" src="frontend.jpg" alt="Front-end">
         <h3>Front End Development</h3>
-        <p>Good understanding of web markup, including HTML5, CSS3. Good understanding of client-side scripting and JavaScript.</p>
+        <p>Good understanding of web markup, including HTML5, CSS3, Bootstrap. Good understanding of client-side scripting and JavaScript.</p>
       </div>
       <div class="skill-row">
         <img class="backend-img" src="backend.jpg" alt="backend">
         <h3>Back End Development</h3>
-        <p>Good understanding of Python and ORMs, APIs. Creating database schemas that represent and support business processes</p>
+        <p>Good understanding of Python and ORMs, APIs. NodeJS, Express. Creating database schemas that represent and support business processes</p>
       </div>
     </div>
     <hr>
@@ -183,7 +183,15 @@
     </div>
   </div>
   <div class="bottom-container">
-    <p>© 2019 Ludrick Mbedzi.</p>
+    <div>
+      &copy;
+      <span id="copyright">
+        <script>
+          document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))
+        </script>
+      </span>
+      <p>Ludrick Mbedzi</p>
+    </div>
   </div>
 </body>
 
